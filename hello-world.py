@@ -45,6 +45,7 @@ def call(cmd):
 
 	return str(output).strip(), str(err), exit_code
 
+"THis is an additional line i'm adding to check the git update"
 """"""""""""""""" Main program starts here """""""""""""""""
 system = platform.system()
 if ( system == "Windows"):
